@@ -132,6 +132,7 @@ a {
 .ctaBackground{
     background-color: white;
     height: 30vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,11 +141,19 @@ a {
 .ctaBox{
     background-color:#3882f6;
     display: flex;
-    height: 10vh;
+    width: 80vw;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .ctaText{
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .ctaTitle{
@@ -156,7 +165,16 @@ a {
     background-color: #3882f6;
     color: white;
     border: 1.5px solid white;
-    padding: 8px 20px;
+    padding: 4px 20px;
     border-radius: 5px;
+    align-self: center;
 
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 100vw;
 }
